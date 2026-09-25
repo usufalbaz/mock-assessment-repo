@@ -1,0 +1,14 @@
+{
+  "name": "take-home-blockchain-assessment",
+  "version": "1.0.0",
+  "description": "Candidate technical assessment for blockchain developer role",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/loader.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2"
+  }
+}
